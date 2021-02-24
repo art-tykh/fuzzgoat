@@ -60,6 +60,7 @@ jobs:
     #    uses a compiled language
 
     - run: |
+       make install
        make
 
     - name: Perform CodeQL Analysis
